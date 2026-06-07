@@ -1,7 +1,7 @@
 {
   "name": "صيدلية النسور - كاشير",
   "short_name": "النسور",
-  "description": "نظام كاشير صيدلية النسور - الفلوجة",
+  "description": "نظام كاشير صيدلية النسور - الفلوجة، الأنبار",
   "start_url": "/Iqi22/",
   "scope": "/Iqi22/",
   "display": "standalone",
@@ -25,5 +25,9 @@
     }
   ],
   "categories": ["medical", "business", "productivity"],
-  "screenshots": []
+  "share_target": {
+    "action": "/Iqi22/",
+    "method": "GET",
+    "params": { "title": "title", "text": "text", "url": "url" }
+  }
 }
